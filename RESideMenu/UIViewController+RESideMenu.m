@@ -48,7 +48,7 @@
 
 - (IBAction)presentLeftMenuViewController:(id)sender
 {
-    [self.sideMenuViewController presentLeftMenuViewController];
+    [self.sideMenuViewController presentLeftMenuViewController:YES];
 }
 
 - (IBAction)presentRightMenuViewController:(id)sender

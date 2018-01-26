@@ -77,7 +77,7 @@
 - (id)initWithContentViewController:(UIViewController *)contentViewController
              leftMenuViewController:(UIViewController *)leftMenuViewController
             rightMenuViewController:(UIViewController *)rightMenuViewController;
-- (void)presentLeftMenuViewController;
+- (void)presentLeftMenuViewController:(BOOL)animated;
 - (void)presentRightMenuViewController;
 - (void)hideMenuViewController;
 - (void)setContentViewController:(UIViewController *)contentViewController animated:(BOOL)animated;
